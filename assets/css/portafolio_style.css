@@ -1,0 +1,184 @@
+/** Asignando nuevas fuentes*/
+@font-face {
+    font-family: the_led_display_st;
+    src: url('../fuentes/the_led_display_st/The\ Led\ Display\ St.ttf');
+}
+
+@font-face {
+    font-family: game_of_squids;
+    src: url('../fuentes/game_of_squids/Game\ Of\ Squids.otf');
+}
+
+body{
+    margin: 0px;
+}
+
+.italian-one{
+    margin-top: 20px;
+
+}
+
+table{
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+h1{
+    font-family: the_led_display_st;
+    /**
+        px, rem
+        1rem = 16px
+        0.5rem = 8px
+        
+    */
+    font-size: 4rem;
+    color: #CB4335;
+    text-shadow: 0.1em 0.1em 0.2em rgb(83, 75, 126);
+}
+
+h2{
+    font-family: game_of_squids;
+    font-size: 3rem;
+    color: black;
+}
+
+#dev{
+    text-decoration: underline;
+}
+
+header{
+    background-color: rgb(255, 214, 119);
+    text-align: center;
+}
+
+img{
+    width: 25%;
+    border-radius: 10px;
+}
+
+.italian-one{
+    margin-bottom: 20px;
+}
+
+.britanic-one{
+    margin-bottom: 20px;
+}
+
+.french-one{
+    margin-bottom: 20px;
+}
+
+/* Contenedor Principal */
+section{
+    /* arriba, derecha, abajo, izquierda 
+    margin: 50 0 50 5; */
+    /* arriba y abajo tiene 100px, mas a la derecha e izquierda tiene 0 */
+    margin: 50px 0;
+}
+
+main{
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    background-color:rgb(255, 227, 137);
+}
+
+.text{
+    width: 30%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.mecanico{
+    width: 55%;
+}
+
+.skill-row{
+    width: 50%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+}
+
+h3{
+    color: #0000cb;
+    font-size: 2rem;
+}
+
+.text-skill{
+    font-size: 20px;
+}
+
+.title1{
+    color: rgb(255, 242, 180);
+    size: 2rem;
+}
+
+.title2{
+    color: rgb(19, 164, 0);
+}
+
+.title3{
+    color: rgb(255, 37, 37);
+}
+
+.title4{
+    color: rgb(41, 206, 243);
+}
+
+.img-area{
+    width: 35%;
+    height: 25%;
+}
+
+.contact{
+    width: 50%;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+}
+
+.contact-button{
+    background-color: rgb(195, 78, 35);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.contact-button:hover{
+    color: rgb(67, 67, 67);
+    background-color: #ff6b5b;
+}
+
+footer{
+    background-color: rgb(255, 214, 119);
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+
+.footer-link{
+    color: rgb(195, 78, 35);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#footer-parrafo{
+    color:#CB4335;
+}
+
+.footer-link:hover{
+    cursor: pointer;
+    color: rgb(67, 67, 67);
+    background-color: #ff6b5b;
+    border-radius: 10px;
+}

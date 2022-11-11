@@ -1,0 +1,86 @@
+body{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color:rgb(255, 216, 100) ;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+/*
+img{
+    width: 200px;
+    margin-left: 500px;
+}
+*/
+
+.skills{
+    width: 400px;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 24px;
+}
+
+h1{
+    text-align: center; 
+    color: aliceblue;  
+    margin-top: 100px;     
+}
+
+.caja{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    text-align: center;
+}
+
+.row{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.card{
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+
+.img-area{
+    width: 35%;
+    height: 25%;
+}
+
+footer{
+    background-color: rgb(255, 214, 119);
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+
+.footer-link{
+    color: rgb(195, 78, 35);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#footer-parrafo{
+    color:#CB4335;
+}
+
+.footer-link:hover{
+    cursor: pointer;
+    color: rgb(67, 67, 67);
+    background-color: #ff6b5b;
+    border-radius: 10px;
+}
